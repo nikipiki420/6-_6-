@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>6трак 6трак</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    
+
+  <header class="header">
+    <img src="LOGO 6TRAK.pdf" style="width:auto; height:150px;" alt="Logo" class="logo-img" />
+    <nav>
+      <a href="#">Shop</a>
+      <a href="#" id="about-link">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  
+      </header>
+      
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>
+      SECOND HAND<br />
+POINT & SHOOT CAMERAS    </h2>
+    <p>Tested. Cleaned. Pretty.</p>
+  </section>
+
+  <!-- Camera Grid -->
+  <section class="grid">
+    <div class="card">
+      <img src="Canon LA 20.png" alt="Canon LA 20" />
+      <p class="name">Canon LA 20</p>
+      <p class="price">€120</p>
+    </div>
+  
+    <div class="card">
+      <img src="olympus-mju-2.png" alt="Olympus Mju II" />
+      <p class="name">Olympus Mju II</p>
+      <p class="price">€150</p>
+    </div>
+  
+    <div class="card">
+      <img src="OLYMPUS SUPERZOOM 70G.png" alt="Olympus SUPERZOOM 70G" />
+      <p class="name">Olympus SUPERZOOM 70G</p>
+      <p class="price">€100</p>
+    </div>
+  
+    <div class="card">
+      <img src="skina-sk.png" alt="SKINA SK - 222" />
+      <p class="name">SKINA SK - 222</p>
+      <p class="price">€200</p>
+    </div>
+  
+    <div class="card">
+      <img src="nikon.png" alt="Nikon TW20 AF" />
+      <p class="name">Nikon TW20 AF</p>
+      <p class="price">€260</p>
+    </div>
+  
+    <div class="card">
+      <img src="camera1.jpg.png" alt="Nikon Lite Touch Zoom 70 W AF" />
+      <p class="name">Nikon Lite Touch Zoom 70 W AF</p>
+      <p class="price">€150</p>
+    </div>
+    <section id="about" class="footer">
+
+
+      <p>
+        We curate second hand premium cameras for creators who value photography,
+        design or just life.
+        <br />
+        Join the 6trak 6trak community and get your point & shoot camera now.
+      </p>
+    </section>
+  
+
+
+    <script>
+      // Prevent automatic scroll to anchors
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+    
+      window.addEventListener('load', function() {
+        window.scrollTo(0, 0); // Start at top
+      });
+    
+      // Scroll to About section only when clicking the About link
+      document.getElementById('about-link').addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default link jump
+        document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+      });
+    </script>
+  
+
+  </body>
+  
